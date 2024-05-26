@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/loginscreen/static/css/main.cddaf54b.css",
-    "main.js": "/loginscreen/static/js/main.61cd82d1.js",
-    "static/js/453.fb4c1376.chunk.js": "/loginscreen/static/js/453.fb4c1376.chunk.js",
-    "index.html": "/loginscreen/index.html",
-    "main.cddaf54b.css.map": "/loginscreen/static/css/main.cddaf54b.css.map",
-    "main.61cd82d1.js.map": "/loginscreen/static/js/main.61cd82d1.js.map",
-    "453.fb4c1376.chunk.js.map": "/loginscreen/static/js/453.fb4c1376.chunk.js.map"
+    "main.css": "/dialynews/static/css/main.cddaf54b.css",
+    "main.js": "/dialynews/static/js/main.6c54e910.js",
+    "static/js/453.fb4c1376.chunk.js": "/dialynews/static/js/453.fb4c1376.chunk.js",
+    "index.html": "/dialynews/index.html",
+    "main.cddaf54b.css.map": "/dialynews/static/css/main.cddaf54b.css.map",
+    "main.6c54e910.js.map": "/dialynews/static/js/main.6c54e910.js.map",
+    "453.fb4c1376.chunk.js.map": "/dialynews/static/js/453.fb4c1376.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cddaf54b.css",
-    "static/js/main.61cd82d1.js"
+    "static/js/main.6c54e910.js"
   ]
 }
