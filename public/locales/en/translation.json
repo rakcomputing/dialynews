@@ -1,0 +1,24 @@
+{
+  "home": "HOME",
+  "share":"SHARE",
+  "manager":"TECHNOLOGY",
+  "staff":"HEALTH",
+  "news":"TRAVEL",
+  "aboutme":"ABOUT ME",
+  "back":"Back",
+   "events":"Events Technology",
+   "followme":"Follow Facebook Page",
+   "announcements":"Announcements",
+   "detail":" Detail..",
+    "technology":"TECHNOLOGY",
+    "health":"HEALTH",
+"travel":"TRAVEL",
+"readmore":"Read More",
+"no_health_posts_found":"No health posts found",
+"no_tech_posts_found":"No technology posts found",
+"no_travel_posts_found":"No travel posts found",
+"no_posts_found":"No posts found",
+"no_events_found":"No events found"
+ 
+ 
+}

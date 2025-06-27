@@ -1,5 +1,5 @@
 .post-card {
-   
+
     font-family: 'KhmerOSBattambang', sans-serif;
     font-size: medium;
     /* background-color: #fff; */
@@ -22,7 +22,7 @@
 }
 
 .post-image {
-   
+
     width: 100%;
     max-height: 300px;
     object-fit: cover;
@@ -52,23 +52,25 @@
     color: #999;
     text-align: right;
 }
+
 .post-header {
-    
+
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
 .post-avatar img {
-            margin-right: 8px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            padding: 2px;
-            border: 1px solid #0ba1b9;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #0ba1b9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
+
 .post-user p {
     background-color: #bebebe;
     padding-left: 2px;
@@ -79,10 +81,9 @@
     font-size: small;
 }
 
-.card-likecommat{
-  flex: 1;
- 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card-likecommat {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

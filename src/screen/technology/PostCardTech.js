@@ -1,13 +1,9 @@
 import React from "react";
-import "./PostCard.css";
-import { SlLike } from "react-icons/sl";
-import { CiShare2 } from "react-icons/ci";
-import { FaRegCommentDots } from "react-icons/fa";
-import { Button } from "antd";
-import DetailPage from "../DetailPage/DetailPage";
+import "./PostCardTech.css";
+
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-const PostCard = ({ post }) => {
+const PostCardTech = ({ post }) => {
   const { i18n, t } = useTranslation();
   const navigate = useNavigate();
   console.log("this is post property: ", post);
@@ -16,10 +12,10 @@ const PostCard = ({ post }) => {
   };
   const onClickDetail = () => {
     navigate(`/post/${post.id}`);
-    if (window.innerWidth < 600) {
+    if (window.innerWidth < 800) {
       window.scrollTo(600, 1200);
     } else {
-      window.scrollTo(600, 1000);
+      window.scrollTo(600, 600);
     } // Scroll to top of the page
   };
 
@@ -87,4 +83,4 @@ const PostCard = ({ post }) => {
   );
 };
 
-export default PostCard;
+export default PostCardTech;

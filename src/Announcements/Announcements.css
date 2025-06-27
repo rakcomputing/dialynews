@@ -1,0 +1,96 @@
+.ann-card {
+     
+    width: 340px;
+    display: flex;
+    font-family: 'KhmerOSBattambang', sans-serif;
+    font-size: medium;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    height: auto;
+     border-bottom: 2px solid #07e74a; 
+    
+}
+ @media screen and (max-width:800px) {
+    .ann-card{
+        width: auto;
+    }
+        
+
+ }
+.ann-card:hover {
+    color: #08779c;
+    font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ann-image {
+    
+    width: 100%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-bottom: 16px;
+     
+}
+
+.ann-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.2em;
+
+    color: #333;
+}
+
+.ann-card p {
+    padding-left: 10px;
+    margin: 0 0 8px;
+    font-size: 1em;
+    text-align: left;
+     line-height: 1.4em;
+     font-weight: bold;
+    color: #02090b;
+}
+
+.ann-card small {
+    display: block;
+    font-size: 0.8em;
+    color: #999;
+    text-align: right;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-avatar img {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #0ba1b9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.post-user p {
+    margin: 0;
+    font-weight: bold;
+    font-size: small;
+}
+
+.card-likecommat {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

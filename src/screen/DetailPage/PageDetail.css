@@ -1,0 +1,56 @@
+.page-detail {
+    font-family: 'KhmerOSBattambang', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-header {
+    display: flex;
+    font-family: 'KhmerOSBattambang', sans-serif;
+    text-align: start;
+}
+
+.post-header h1 {
+  
+    font-family: 'KhmerOSBattambang', sans-serif;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    line-height: 0.5em;
+    color: #8f8a8a;
+    font-size: 13px;
+}
+
+.post-cover img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.post-content {
+    font-family: 'KhmerOSBattambang', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.post-content img{
+    width: 100%;
+        height: auto;
+        margin: 10px 0;
+}
+
+.page-detaitl-back{
+    
+    font-family: 'KhmerOSBattambang', sans-serif;
+    border:  1px solid #8f8a8a;
+    border-radius: 50px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #27AE60;
+    height: 50px;
+}
